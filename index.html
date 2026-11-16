@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+      name="viewport"
+    />
+    <meta content="dark" name="color-scheme" />
+    <title>Wildan Abrori Aziz &ndash; Portofolio</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;family=Instrument+Serif:ital@1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page-progress" aria-hidden="true"></div>
+    <header class="top">
+      <div class="wrap nav-in">
+        <div class="brand">
+          <div class="brand-title">
+            <b> Wildan Abrori Aziz </b>
+            <span class="status-badge" title="Tersedia untuk peluang kerja">
+              <i class="status-dot"></i>
+              <span>Open to Work</span>
+            </span>
+          </div>
+          <span> Web Developer dan Machine Learning Engineer </span>
+        </div>
+        <nav aria-label="Halaman" class="pill">
+          <a data-v="work" href="#work"> Proyek </a>
+          <a data-v="info" href="#info"> Info </a>
+        </nav>
+        <div class="ext">
+          <div class="ext-links">
+            <a
+              href="https://github.com/WIldan1330"
+              rel="noopener"
+              target="_blank"
+            >
+              GitHub &nearrow;
+            </a>
+            <a
+              href="https://www.linkedin.com/in/wildanabroriaziz/"
+              rel="noopener"
+              target="_blank"
+            >
+              LinkedIn &nearrow;
+            </a>
+          </div>
+          <a class="btn-cv" href="cv.pdf" target="_blank" rel="noopener" title="Lihat CV Wildan Abrori Aziz (PDF)">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+            <span>CV</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="wrap">
+      <main>
+        <div class="view" id="v-work">
+          <section class="hero-section">
+            <h1 class="judul">
+              Saya membuat website, mengembangkan aplikasi, dan mencoba berbagai hal dengan  &amp;
+              <em> machine learning. </em>
+            </h1>
+            <div class="scroll-hint" aria-hidden="true">
+              <span>Jelajahi Proyek</span>
+              <div class="scroll-hint-chevron">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 9l6 6 6-6"/>
+                </svg>
+              </div>
+            </div>
+          </section>
+          <section class="projects-section" aria-label="Proyek">
+            <a
+              class="card"
+              href="https://github.com/WIldan1330/fraud-detection-app"
+              rel="noopener"
+              target="_blank"
+            >
+              <div class="ch">
+                <div>
+                  <h3>Fraud Detection</h3>
+                  <p>
+                    <b> Proyek Skripsi (Undergraduate Thesis Project) </b>
+                    &ndash; Sistem deteksi penipuan transaksi finansial perbankan digital end-to-end secara real-time.
+                  </p>
+                </div>
+                <div class="card-badge badge-repo">
+                  <span>GitHub</span>
+                  <span class="arr">&nearrow;</span>
+                </div>
+              </div>
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="image/fraud.png"
+                  alt="Tampilan antarmuka Financial Fraud Detection App"
+                  loading="lazy"
+                  width="1897"
+                  height="862"
+                />
+              </div>
+              <div class="win">
+                <div class="bar">
+                  <i> </i>
+                  <i> </i>
+                  <i> </i>
+                </div>
+                <div class="flow">
+                  <span> Python (Flask) </span>
+                  <s> &rarr; </s>
+                  <span> Scikit-Learn </span>
+                  <s> &rarr; </s>
+                  <span> Random Forest </span>
+                  <s> &rarr; </s>
+                  <span> SMOTE </span>
+                  <s> &rarr; </s>
+                  <span> REST API </span>
+                  <s> &rarr; </s>
+                  <span> Railway Deployment </span>
+                </div>
+                <ul class="desc-points">
+                  <li>Merancang dan membangun sistem deteksi penipuan transaksi finansial perbankan digital secara mandiri dari tahap eksplorasi data hingga deployment (end-to-end).</li>
+                  <li>Membangun pipeline data otomatis dengan normalisasi mata uang (IDR ke USD), feature scaling, penanganan data imbalanced (SMOTE), dan kalibrasi threshold tuning.</li>
+                  <li>Mengimplementasikan 3 metode inferensi: formulir input transaksi tunggal, pemrosesan batch file CSV fitur PCA, dan file CSV transaksi riil.</li>
+                  <li>Merancang RESTful API menggunakan Flask serta mengonfigurasi cloud deployment pada platform Railway untuk prediksi instan.</li>
+                </ul>
+              </div>
+            </a>
+            <a
+              class="card"
+              href="https://plant-analyzer.vercel.app/"
+              rel="noopener"
+              target="_blank"
+            >
+              <div class="ch">
+                <div>
+                  <h3>Tomato Disease Analyzer</h3>
+                  <p>
+                    <b> Final Project &ndash; AI Modeling Lead </b>
+                    &ndash; Platform web diagnostik penyakit tanaman tomat berbasis Deep Learning Computer Vision.
+                  </p>
+                </div>
+                <div class="card-badge badge-live">
+                  <span class="badge-dot"></span>
+                  <span>Live Demo</span>
+                  <span class="arr">&nearrow;</span>
+                </div>
+              </div>
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="image/tomat.png"
+                  alt="Tampilan antarmuka Tomato Disease Analyzer"
+                  loading="lazy"
+                  width="1897"
+                  height="925"
+                />
+              </div>
+              <div class="win">
+                <div class="bar">
+                  <i> </i>
+                  <i> </i>
+                  <i> </i>
+                </div>
+                <div class="flow">
+                  <span> Citra Daun </span>
+                  <s> &rarr; </s>
+                  <span> CNN Deep Learning </span>
+                  <s> &rarr; </s>
+                  <span> Data Augmentation </span>
+                  <s> &rarr; </s>
+                  <span> Hugging Face Gradio </span>
+                  <s> &rarr; </s>
+                  <span> Next.js 15 UI </span>
+                  <s> &rarr; </s>
+                  <span> Vercel </span>
+                </div>
+                <ul class="desc-points">
+                  <li>Bertanggung jawab pada perancangan dan pelatihan model Deep Learning Computer Vision menggunakan Convolutional Neural Network (CNN) untuk mengklasifikasikan 10 kondisi daun tomat.</li>
+                  <li>Melakukan image preprocessing, augmentasi data citra, serta fine-tuning model guna memaksimalkan performa dan akurasi inferensi diagnostik tanaman.</li>
+                  <li>Mengonfigurasi cloud model serving via Hugging Face Gradio Client agar estimasi inferensi penyakit dapat diakses secara asinkron oleh web platform.</li>
+                  <li>Berkolaborasi dengan tim pengembang antarmuka Next.js 15 dalam integrasi API prediksi, alur upload foto tanaman, dan visualisasi rekomendasi tindakan kuratif.</li>
+                </ul>
+              </div>
+            </a>
+            <a
+              class="card"
+              href="https://github.com/WIldan1330/CoffeShop"
+              rel="noopener"
+              target="_blank"
+            >
+              <div class="ch">
+                <div>
+                  <h3>Coffee Shop Website</h3>
+                  <p>
+                    <b> Final Project </b>
+                    &ndash; Website kedai kopi interaktif dengan sistem pemesanan online &amp; panel admin.
+                  </p>
+                </div>
+                <div class="card-badge badge-repo">
+                  <span>GitHub</span>
+                  <span class="arr">&nearrow;</span>
+                </div>
+              </div>
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="image/coffe.png"
+                  alt="Tampilan antarmuka Coffee Shop Website"
+                  loading="lazy"
+                  width="1900"
+                  height="932"
+                />
+              </div>
+              <div class="win">
+                <div class="bar">
+                  <i> </i>
+                  <i> </i>
+                  <i> </i>
+                </div>
+                <div class="flow">
+                  <span> HTML5 &amp; CSS3 </span>
+                  <s> &rarr; </s>
+                  <span> Bootstrap 4 </span>
+                  <s> &rarr; </s>
+                  <span> JavaScript (ES6) </span>
+                  <s> &rarr; </s>
+                  <span> Leaflet.js &amp; OSM </span>
+                  <s> &rarr; </s>
+                  <span> CodeIgniter 3 </span>
+                  <s> &rarr; </s>
+                  <span> AdminLTE 3 </span>
+                </div>
+                <ul class="desc-points">
+                  <li>Merancang dan membangun antarmuka pengguna (User Interface) yang responsif untuk pelanggan dan panel admin menggunakan HTML5, CSS3, JavaScript, dan Bootstrap 4.</li>
+                  <li>Mengembangkan fitur autentikasi interaktif dengan animasi dual-panel sliding transition serta halaman katalog kopi dengan dynamic cart counter.</li>
+                  <li>Merancang alur user experience (UX) pemesanan produk dari katalog, detail keranjang, formulir checkout dengan unggah bukti pembayaran, hingga halaman pemantauan status pesanan.</li>
+                  <li>Mengintegrasikan peta interaktif lokasi kedai menggunakan Leaflet.js &amp; OpenStreetMap serta membangun halaman manajemen produk, pesanan, dan ulasan berbasis AdminLTE yang terhubung dengan view layer CodeIgniter 3.</li>
+                </ul>
+              </div>
+            </a>
+          </section>
+        </div>
+        <div class="view" id="v-info">
+          <section class="hero about-hero">
+            <div>
+            <p class="lbl">Tentang saya</p>
+            <h2 class="hl">
+              Saya menikmati proses belajar, mencoba, dan membangun 
+              <em> sesuatu. </em>
+            </h2>
+          </div>
+            <div class="photo-frame">
+              <img
+                class="foto"
+                src="image/foto.jpg"
+                alt="Foto Wildan Abrori Aziz"
+                width="240"
+                height="300"
+                loading="lazy"
+              />
+            </div>
+          </section>
+          <div class="two">
+            <h3>Latar belakang</h3>
+            <div>
+              <p>
+                Saya merupakan lulusan S1 Informatika yang tertarik pada pengembangan web, 
+                machine learning, dan desain antarmuka pengguna (UI/UX).
+              </p>
+              <p>
+                Selama kuliah, saya mengerjakan beberapa proyek menggunakan Next.js, TypeScript, 
+                dan Python (Flask), termasuk proyek yang melibatkan pengolahan data dan machine learning.
+              </p>
+            </div>
+          </div>
+          <div class="two">
+            <h3>Cara kerja</h3>
+            <div>
+              <p>
+               Saya senang mempelajari hal baru, terbuka terhadap masukan, dan berusaha menyelesaikan pekerjaan 
+               dengan baik. Saya juga terbiasa mencari solusi ketika menghadapi kendala selama proses pengembangan.
+              </p>
+              <p>
+                Dalam mengerjakan proyek, saya pernah menggunakan React, Scikit-learn, Supabase (PostgreSQL), Tailwind CSS, dan Bootstrap.
+              </p>
+            </div>
+          </div>
+          <p class="lbl lbl-spaced">Pengalaman</p>
+          <div class="exp">
+            <h3>Freelance</h3>
+            <div>
+              <h4>Admin Data Entry</h4>
+              <p class="d">Agu 2026 &ndash; Okt 2026</p>
+              <ul>
+                <li>
+                  Mengelola dan menjaga akurasi entri data di Microsoft Excel
+                  dan Google Sheets.
+                </li>
+                <li>
+                  Membuat pelaporan yang mengekspor dokumen ke PDF otomatis
+                  setelah data tervalidasi.
+                </li>
+                <li>
+                  Menghitung persentase pengadaan harga untuk perbandingan biaya
+                  vendor.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="exp">
+            <h3>Freelance</h3>
+            <div>
+              <h4>UI/UX Designer</h4>
+              <p class="d">Jan 2026 &ndash; Apr 2026</p>
+              <ul>
+                <li>
+                  Merancang wireframe, menentukan hirarki visual, tata letak antarmuka, 
+                  serta skema warna sesuai kebutuhan spesifikasi klien.
+                </li>
+                <li>
+                  Membuat high-fidelity prototype interaktif dan mempresentasikannya 
+                  kepada klien untuk tahap evaluasi dan iterasi desain.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="exp">
+            <h3>Freelance</h3>
+            <div>
+              <h4>UI/UX Designer & FrontEnd Dev</h4>
+              <p class="d">Apr 2026 &ndash; Jun 2026</p>
+              <ul>
+                <li>
+                  Merancang antarmuka pengguna (UX) hingga tahap pengembangan fitur Front-End.
+                </li>
+                <li>
+                  Merancang komponen antarmuka visual (UI) dan mengimplementasikannya secara presisi ke dalam kode antarmuka.
+                </li>
+                <li>
+                  Melakukan pengujian serta debugging fungsionalitas front-end untuk memastikan antarmuka berjalan responsif dan optimal.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p class="lbl lbl-spaced">Pendidikan</p>
+          <div class="exp">
+            <h3>Universitas Amikom Yogyakarta</h3>
+            <div>
+              <h4>S1 Informatika</h4>
+              <p class="d">Sep 2022 &ndash; Jul 2026</p>
+            </div>
+          </div>
+          <p class="lbl lbl-spaced">Kemampuan</p>
+          <div class="sec grid">
+            <div>
+              <b> Full-Stack Web </b>
+              <span> Next.js 15, React 19, TypeScript </span>
+            </div>
+            <div>
+              <b> Machine Learning </b>
+              <span> Scikit-Learn, Random Forest, CNN </span>
+            </div>
+            <div>
+              <b> Backend &amp; Cloud </b>
+              <span> Flask, Supabase (SQL), Vercel </span>
+            </div>
+            <div>
+              <b> UI/UX &amp; Styling </b>
+              <span> Tailwind CSS, Bootstrap, Figma </span>
+            </div>
+            <div>
+              <b> Data &amp; Analytics </b>
+              <span> Pandas, NumPy, Excel, GSheets </span>
+            </div>
+            <div>
+              <b> Workflow &amp; Tools </b>
+              <span> Git, RESTful API, Problem Solving </span>
+            </div>
+          </div>
+          <p class="lbl lbl-spaced">
+            Sertifikasi &amp; Pelatihan
+          </p>
+          <div class="sec grid">
+            <div>
+              <b> Intro to Software Engineering </b>
+              <span> ReVoU &ndash; Jul 2025 </span>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="reveal">
+        <div class="fcols">
+          <div>
+            <small> Kontak </small>
+            <a
+              href="https://github.com/WIldan1330"
+              rel="noopener"
+              target="_blank"
+            >
+              GitHub &nearrow;
+            </a>
+            <a
+              href="https://www.linkedin.com/in/wildanabroriaziz/"
+              rel="noopener"
+              target="_blank"
+            >
+              LinkedIn &nearrow;
+            </a>
+          </div>
+          
+        </div>
+        <div class="fb">
+          <span>
+            <b> &copy; 2026 Wildan Abrori Aziz. </b>
+            Seluruh hak cipta dilindungi.
+          </span>
+          <span> Kab. Sleman, DI Yogyakarta </span>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
